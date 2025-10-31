@@ -135,7 +135,7 @@ export default function TodayPage() {
           </div>
 
           <Select
-            className="w-full sm:w-44 font-semibold"
+            className="w-full sm:w-44 font-semiboldb"
             placeholder="Sort by: Priority"
             startContent={<HiArrowsUpDown />}
           >

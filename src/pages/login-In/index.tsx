@@ -28,7 +28,7 @@ export default function LoginPage() {
     mutationFn: LoginApi,
     onSuccess: (data) => {
       console.log(data?.data);
-      navigate("/login");
+      navigate("/dashboard");
     },
     onError: (error) => console.error(error),
   });
@@ -151,7 +151,7 @@ export default function LoginPage() {
         {/* Footer */}
         <p className="text-center text-gray-500 text-sm">
           Don’t have an account?{" "}
-          <Link to="/signup" className="text-blue-600 hover:underline font-medium">
+          <Link to="/" className="text-blue-600 hover:underline font-medium">
             Sign in
           </Link>
         </p>

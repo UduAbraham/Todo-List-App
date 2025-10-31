@@ -26,7 +26,7 @@ export default function SignUp() {
   const { mutate, isPending } = useMutation({
     mutationFn: SignUpApi,
     onSuccess: () => {
-      navigate("/login");
+      navigate("/dashboard");
     },
   });
 
@@ -52,7 +52,7 @@ export default function SignUp() {
   };
 
   return (
-    <div className="space-y-4 shadow-2xl py-10 max-w-lg mx-auto my-10 rounded-2xl">
+    <div className="space-y-4 shadow-2xl py-10 max-w-xl mx-auto my-10 rounded-2xl">
       <div className="justify-center max-w-md mx-auto">
 
         <div className="flex justify-center gap-2 items-center py-3">

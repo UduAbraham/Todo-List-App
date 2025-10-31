@@ -12,8 +12,8 @@ import Shoppinglist from "./pages/dashboard/component/sshopping_list";
 function App() {
   return (
     <Routes>
-      <Route element={<HomePage />} path="/" />
-      <Route element={<SignUp />} path="/signup" />
+      <Route element={<SignUp />} path="/" />
+      <Route element={<HomePage />} path="/homepage" />
        <Route element={<LoginPage/>} path="/login"/>
 
        
